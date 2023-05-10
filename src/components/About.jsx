@@ -47,11 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I am a web developer with a vast array of knowledge in many different front end and back end languages and responsive frameworks, databases, and best code practices My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do
+
+I am dedicated to perfecting my craft by learning from more seasoned developers and remaining humble and continuously making strides to learn all that I can about development
+
+While a student at Beni suef Universities and I studied Mathematics and I believe that my understanding of problem solving and complex algorithms are also skills that have and will continue to contribute to my overall success as a developer
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

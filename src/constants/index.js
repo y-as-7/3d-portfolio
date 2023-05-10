@@ -40,13 +40,13 @@ import {
     },
   ];
   
-  const services = [
+  const   services = [
     {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React  Developer",
       icon: mobile,
     },
     {
@@ -116,34 +116,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Teacher",
+      company_name: "AskarWeb",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "2023-Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "worked as a programming teatcher in my site askarweb to learn people all things about web programmimg and I like teaching very much",
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Youtuber",
+      company_name: "Youtube",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "2023-Present | Home",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "worked as youtuber making content about programming stuff and learning people programming by making educational videos and you can check my channel askarweb"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Freelancer",
+      company_name: "freelancer",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
@@ -156,7 +151,7 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
+      company_name: "fiver",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
@@ -198,16 +193,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "IMDB CLONE",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "responsive website with dark mode dynamic website with API made by Next.JS and Tailwind CSS",
       tags: [
         {
-          name: "react",
+          name: "next js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "api",
           color: "green-text-gradient",
         },
         {
@@ -219,20 +214,22 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Real Estate Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "responsive website made by Next.JS and Tailwind CSS"
+
+        ,
       tags: [
         {
-          name: "react",
+          name: "vite",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "react",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
@@ -240,20 +237,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "job Listing",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "react app with filters, made by react and tailwind.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "api",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],

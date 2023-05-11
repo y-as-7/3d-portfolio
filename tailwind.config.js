@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -23,6 +24,23 @@ export default {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      animation:{
+        close: "close 1s ease linear",
+        wiggle: "wiggle 1s ease-in-out linear",
+        
+      },
+      keyframes:{
+        wiggle: {
+          "0%": { left: "100%" },
+          "100%": { left: "0" },
+        },
+         close: {
+          "0%": { left: "0" },
+          "100%": { left: "100%" },
+        },
+      }
+      
+
     },
   },
   plugins: [],

@@ -46,16 +46,16 @@ const Navbar = () => {
           />
           <div
             className={`${
-              !toggle ? "hidden  " : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min[140px] z-10 rounded-xl`}
+              !toggle ? "  hidden " : "flex"
+            }  black-gradient absolute top-16 left-0  text-center   animate-[wiggle_1s_ease]  transition duration-500 ease-linear  w-full h-screen z-10  `}
           >
-            <ul className="list-none flex  justify-end items-start flex-col gap-4 ">
+            <ul className="list-none mx-auto flex  justify-center items-center flex-col gap-4  text-center text-5xl space-y-10">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
                   className={`${
                     active === link.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                  } font-poppins font-medium cursor-pointer text-center text-lg uppercase  `}
                   onClick={() => {
                     setToggle(!toggle)
                     setActive(link.title);

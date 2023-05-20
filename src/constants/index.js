@@ -35,6 +35,10 @@ import {
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -192,7 +196,7 @@ import {
   ];
   
   const projects = [
-    {
+    {id:0,
       name: "IMDB CLONE",
       description:
         "responsive website with dark mode dynamic website with API made by Next.JS and Tailwind CSS",
@@ -212,8 +216,9 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/",
+      link:""
     },
-    {
+    {id:1,
       name: "Real Estate Website",
       description:
         "responsive website made by Next.JS and Tailwind CSS"
@@ -235,8 +240,9 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      link:"",
     },
-    {
+    {id:2,
       name: "job Listing",
       description:
         "react app with filters, made by react and tailwind.",
@@ -256,6 +262,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      link:"",
     },
   ];
   

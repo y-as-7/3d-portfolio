@@ -216,7 +216,7 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/",
-      link:""
+      link:"https://imdb-clone-murex.vercel.app/"
     },
     {id:1,
       name: "Real Estate Website",
@@ -240,7 +240,7 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
-      link:"",
+      link:"https://real-estate-website-rust.vercel.app/",
     },
     {id:2,
       name: "job Listing",
@@ -262,7 +262,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
-      link:"",
+      link:"https://y-as-7.github.io/job-lisitng/",
     },
   ];
   
